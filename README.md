@@ -18,16 +18,7 @@ MyFlix is a simple web application inspired by Netflix, where users can browse m
 
 ## How to Use
 
-1. **Clone or Download the Repository**:  
-   You can either clone the repository or download the ZIP file of the project.
-   
-2. **Open `index.html`**:  
-   Open the `index.html` file in your browser to view the project. No server or backend is required as it runs entirely in the browser.
-
-3. **Explore the Features**:  
-   - Use the category buttons to filter movies by Action, Comedy, Horror, or TV Shows.
-   - Click the heart button next to a movie to add it to your favorites. These are saved in your browser’s local storage.
-   - Toggle between Light and Dark mode by clicking the theme switch button.
+# Open the site at :
 
 ## Screenshots
 
