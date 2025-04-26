@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MyFlix</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">MyFlix</div>
+    <input type="text" id="search-bar" placeholder="Search movies...">
+    <button id="theme-toggle">Light Mode</button>
+  </header>
+
+  <div class="categories">
+    <button class="category-btn" onclick="filterCategory('Action')">Action 🎬</button>
+    <button class="category-btn" onclick="filterCategory('Comedy')">Comedy 😂</button>
+    <button class="category-btn" onclick="filterCategory('Horror')">Horror 👻</button>
+    <button class="category-btn" onclick="filterCategory('TV')">TV 📺</button>
+    <button class="category-btn" onclick="filterCategory('All')">All 🎞️</button>
+  </div>
+
+  <div id="movie-grid" class="movie-grid">
+    <!-- Movie cards will appear here dynamically -->
+  </div>
+
+  <div id="favorites" class="favorites">
+    <h2>Your Favorites ⭐️</h2>
+    <div id="favorites-list"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
